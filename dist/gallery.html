@@ -1,0 +1,588 @@
+<!doctype html>
+<html lang="en">
+
+<head>
+	<!-- Required meta tags -->
+	<meta charset="utf-8">
+	<meta name="viewport" content="width=device-width, initial-scale=1">
+	<!--favicon-->
+	<link rel="icon" href="assets/images/favicon-32x32.png" type="image/png" />
+	<!--plugins-->
+	<link href="assets/plugins/simplebar/css/simplebar.css" rel="stylesheet" />
+	<link href="assets/plugins/perfect-scrollbar/css/perfect-scrollbar.css" rel="stylesheet" />
+	<link href="assets/plugins/metismenu/css/metisMenu.min.css" rel="stylesheet" />
+	<!-- loader-->
+	<link href="assets/css/pace.min.css" rel="stylesheet" />
+	<script src="assets/js/pace.min.js"></script>
+	<!-- Bootstrap CSS -->
+	<link href="assets/css/bootstrap.min.css" rel="stylesheet">
+	<link href="assets/css/app.css" rel="stylesheet">
+	<link href="assets/css/icons.css" rel="stylesheet">
+
+	<link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/animate.css/4.1.1/animate.min.css" />
+	<title>Maythawat Mahawan</title>
+
+	<style>
+		@import url('https://fonts.googleapis.com/css2?family=IBM+Plex+Sans+Thai:wght@300;400;500;600&display=swap');
+
+		body {
+			font-family: 'Roboto', 'IBM Plex Sans Thai', sans-serif;
+		}
+	</style>
+
+</head>
+
+<body class="bg-theme bg-theme2">
+	<!--wrapper-->
+	<div class="wrapper">
+		<!--sidebar wrapper -->
+		<div class="sidebar-wrapper" data-simplebar="true">
+			<div class="sidebar-header">
+				<div>
+					<img src="assets/images/logo-icon.png" class="logo-icon" alt="logo icon">
+				</div>
+				<div>
+					<h4 class="logo-text">Codename_T</h4>
+				</div>
+				<div class="toggle-icon ms-auto"><i class='bx bx-arrow-to-left'></i>
+				</div>
+			</div>
+			<!--navigation-->
+			<ul class="metismenu" id="menu">
+				<li>
+					<a href="index.html">
+						<div class="parent-icon"><i class="bx bx-home"></i>
+						</div>
+						<div class="menu-title">Home</div>
+					</a>
+				</li>
+				<li>
+					<a href="about.html">
+						<div class="parent-icon"><i class="bx bx-user-circle"></i>
+						</div>
+						<div class="menu-title">About me</div>
+					</a>
+				</li>
+				<li>
+					<a href="education.html">
+						<div class="parent-icon"> <i class="bx bxs-graduation"></i>
+						</div>
+						<div class="menu-title">Education</div>
+					</a>
+				</li>
+				<li>
+					<a href="skills.html">
+						<div class="parent-icon"> <i class="bx bxs-bar-chart-alt-2" ></i>
+						</div>
+						<div class="menu-title">Skills</div>
+					</a>
+				</li>
+				<li>
+					<a href="projects.html">
+						<div class="parent-icon"> <i class="bx bx-briefcase-alt-2" ></i>
+						</div>
+						<div class="menu-title">Projects</div>
+					</a>
+				</li>
+				<li>
+					<a href="gallery.html">
+						<div class="parent-icon"><i class="bx bx-photo-album"></i>
+						</div>
+						<div class="menu-title">Gallery</div>
+					</a>
+				</li>
+				<li>
+					<a href="map.html">
+						<div class="parent-icon"><i class="bx bx-map"></i>
+						</div>
+						<div class="menu-title">Favorite Location</div>
+					</a>
+				</li>
+			</ul>
+			<!--end navigation-->
+		</div>
+		<!--end sidebar wrapper -->
+		<!--start header -->
+		<header>
+			<div class="topbar d-flex align-items-center">
+				<nav class="navbar navbar-expand">
+					<div class="mobile-toggle-menu"><i class="bx bx-menu"></i>
+					</div>
+					<div class="search-bar flex-grow-1">
+						<div class="position-relative search-bar-box">
+							<input type="text" class="form-control search-control" placeholder="Type to search...">
+							<span class="position-absolute top-50 search-show translate-middle-y"><i
+									class="bx bx-search"></i></span>
+							<span class="position-absolute top-50 search-close translate-middle-y"><i
+									class="bx bx-x"></i></span>
+						</div>
+					</div>
+					<div class="top-menu ms-auto">
+						<ul class="navbar-nav align-items-center">
+							<li class="nav-item mobile-search-icon">
+								<a class="nav-link" href="#"> <i class="bx bx-search"></i>
+								</a>
+							</li>
+							<li class="nav-item dropdown dropdown-large">
+								<a class="nav-link dropdown-toggle dropdown-toggle-nocaret position-relative" href="#"
+									role="button" data-bs-toggle="dropdown" aria-expanded="false"> 
+									<i class="bx bx-bell"></i>
+								</a>
+								<div class="dropdown-menu dropdown-menu-end">
+									<a href="javascript:;">
+										<div class="msg-header">
+											<p class="msg-header-title">Notifications</p>
+											<p class="msg-header-clear ms-auto">Marks all as read</p>
+										</div>
+									</a>
+									<div class="header-notifications-list">
+										
+									</div>
+									<a href="javascript:;">
+										<div class="text-center msg-footer">View All Notifications</div>
+									</a>
+								</div>
+							</li>
+							<li class="nav-item dropdown dropdown-large">
+								<a class="nav-link dropdown-toggle dropdown-toggle-nocaret position-relative" href="#"
+									role="button" data-bs-toggle="dropdown" aria-expanded="false">
+									<i class="bx bx-comment"></i>
+								</a>
+								<div class="dropdown-menu dropdown-menu-end">
+									<a href="javascript:;">
+										<div class="msg-header">
+											<p class="msg-header-title">Messages</p>
+											<p class="msg-header-clear ms-auto">Marks all as read</p>
+										</div>
+									</a>
+									<div class="header-message-list">
+									</div>
+									<a href="javascript:;">
+										<div class="text-center msg-footer">View All Messages</div>
+									</a>
+								</div>
+							</li>
+						</ul>
+					</div>
+					<div class="user-box dropdown">
+						<a class="d-flex align-items-center nav-link dropdown-toggle dropdown-toggle-nocaret" href="#"
+							role="button" data-bs-toggle="dropdown" aria-expanded="false">
+							<img src="https://via.placeholder.com/110x110" class="user-img" alt="user avatar">
+							<div class="user-info ps-3">
+								<p class="user-name mb-0">Anonymous</p>
+								<p class="designattion mb-0">Visitor</p>
+							</div>
+						</a>
+					</div>
+				</nav>
+			</div>
+		</header>
+		<!--end header --><!doctype html>
+<html lang="en">
+
+<head>
+	<!-- Required meta tags -->
+	<meta charset="utf-8">
+	<meta name="viewport" content="width=device-width, initial-scale=1">
+	<!--favicon-->
+	<link rel="icon" href="assets/images/favicon-32x32.png" type="image/png" />
+	<!--plugins-->
+	<link href="assets/plugins/simplebar/css/simplebar.css" rel="stylesheet" />
+	<link href="assets/plugins/perfect-scrollbar/css/perfect-scrollbar.css" rel="stylesheet" />
+	<link href="assets/plugins/metismenu/css/metisMenu.min.css" rel="stylesheet" />
+	<!-- loader-->
+	<link href="assets/css/pace.min.css" rel="stylesheet" />
+	<script src="assets/js/pace.min.js"></script>
+	<!-- Bootstrap CSS -->
+	<link href="assets/css/bootstrap.min.css" rel="stylesheet">
+	<link href="assets/css/app.css" rel="stylesheet">
+	<link href="assets/css/icons.css" rel="stylesheet">
+
+	<link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/animate.css/4.1.1/animate.min.css" />
+	<title>Maythawat Mahawan</title>
+
+	<style>
+		@import url('https://fonts.googleapis.com/css2?family=IBM+Plex+Sans+Thai:wght@300;400;500;600&display=swap');
+
+		body {
+			font-family: 'Roboto', 'IBM Plex Sans Thai', sans-serif;
+		}
+	</style>
+
+</head>
+
+<body class="bg-theme bg-theme2">
+	<!--wrapper-->
+	<div class="wrapper">
+		<!--sidebar wrapper -->
+		<div class="sidebar-wrapper" data-simplebar="true">
+			<div class="sidebar-header">
+				<div>
+					<img src="assets/images/logo-icon.png" class="logo-icon" alt="logo icon">
+				</div>
+				<div>
+					<h4 class="logo-text">Codename_T</h4>
+				</div>
+				<div class="toggle-icon ms-auto"><i class='bx bx-arrow-to-left'></i>
+				</div>
+			</div>
+			<!--navigation-->
+			<ul class="metismenu" id="menu">
+				<li>
+					<a href="index.html">
+						<div class="parent-icon"><i class="bx bx-home"></i>
+						</div>
+						<div class="menu-title">Home</div>
+					</a>
+				</li>
+				<li>
+					<a href="about.html">
+						<div class="parent-icon"><i class="bx bx-user-circle"></i>
+						</div>
+						<div class="menu-title">About me</div>
+					</a>
+				</li>
+				<li>
+					<a href="education.html">
+						<div class="parent-icon"> <i class="bx bxs-graduation"></i>
+						</div>
+						<div class="menu-title">Education</div>
+					</a>
+				</li>
+				<li>
+					<a href="skills.html">
+						<div class="parent-icon"> <i class="bx bxs-bar-chart-alt-2" ></i>
+						</div>
+						<div class="menu-title">Skills</div>
+					</a>
+				</li>
+				<li>
+					<a href="projects.html">
+						<div class="parent-icon"> <i class="bx bx-briefcase-alt-2" ></i>
+						</div>
+						<div class="menu-title">Projects</div>
+					</a>
+				</li>
+				<li>
+					<a href="gallery.html">
+						<div class="parent-icon"><i class="bx bx-photo-album"></i>
+						</div>
+						<div class="menu-title">Gallery</div>
+					</a>
+				</li>
+				<li>
+					<a href="map.html">
+						<div class="parent-icon"><i class="bx bx-map"></i>
+						</div>
+						<div class="menu-title">Favorite Location</div>
+					</a>
+				</li>
+			</ul>
+			<!--end navigation-->
+		</div>
+		<!--end sidebar wrapper -->
+		<!--start header -->
+		<header>
+			<div class="topbar d-flex align-items-center">
+				<nav class="navbar navbar-expand">
+					<div class="mobile-toggle-menu"><i class="bx bx-menu"></i>
+					</div>
+					<div class="search-bar flex-grow-1">
+						<div class="position-relative search-bar-box">
+							<input type="text" class="form-control search-control" placeholder="Type to search...">
+							<span class="position-absolute top-50 search-show translate-middle-y"><i
+									class="bx bx-search"></i></span>
+							<span class="position-absolute top-50 search-close translate-middle-y"><i
+									class="bx bx-x"></i></span>
+						</div>
+					</div>
+					<div class="top-menu ms-auto">
+						<ul class="navbar-nav align-items-center">
+							<li class="nav-item mobile-search-icon">
+								<a class="nav-link" href="#"> <i class="bx bx-search"></i>
+								</a>
+							</li>
+							<li class="nav-item dropdown dropdown-large">
+								<a class="nav-link dropdown-toggle dropdown-toggle-nocaret position-relative" href="#"
+									role="button" data-bs-toggle="dropdown" aria-expanded="false"> 
+									<i class="bx bx-bell"></i>
+								</a>
+								<div class="dropdown-menu dropdown-menu-end">
+									<a href="javascript:;">
+										<div class="msg-header">
+											<p class="msg-header-title">Notifications</p>
+											<p class="msg-header-clear ms-auto">Marks all as read</p>
+										</div>
+									</a>
+									<div class="header-notifications-list">
+										
+									</div>
+									<a href="javascript:;">
+										<div class="text-center msg-footer">View All Notifications</div>
+									</a>
+								</div>
+							</li>
+							<li class="nav-item dropdown dropdown-large">
+								<a class="nav-link dropdown-toggle dropdown-toggle-nocaret position-relative" href="#"
+									role="button" data-bs-toggle="dropdown" aria-expanded="false">
+									<i class="bx bx-comment"></i>
+								</a>
+								<div class="dropdown-menu dropdown-menu-end">
+									<a href="javascript:;">
+										<div class="msg-header">
+											<p class="msg-header-title">Messages</p>
+											<p class="msg-header-clear ms-auto">Marks all as read</p>
+										</div>
+									</a>
+									<div class="header-message-list">
+									</div>
+									<a href="javascript:;">
+										<div class="text-center msg-footer">View All Messages</div>
+									</a>
+								</div>
+							</li>
+						</ul>
+					</div>
+					<div class="user-box dropdown">
+						<a class="d-flex align-items-center nav-link dropdown-toggle dropdown-toggle-nocaret" href="#"
+							role="button" data-bs-toggle="dropdown" aria-expanded="false">
+							<img src="https://via.placeholder.com/110x110" class="user-img" alt="user avatar">
+							<div class="user-info ps-3">
+								<p class="user-name mb-0">Anonymous</p>
+								<p class="designattion mb-0">Visitor</p>
+							</div>
+						</a>
+					</div>
+				</nav>
+			</div>
+		</header>
+		<!--end header --><!--start page wrapper -->
+<div class="page-wrapper">
+	<div class="page-content">
+		<!--breadcrumb-->
+		<div class="page-breadcrumb d-none d-sm-flex align-items-center mb-3">
+			<div class="breadcrumb-title pe-3">Gallery</div>
+			<div class="ps-3">
+				<nav aria-label="breadcrumb">
+					<ol class="breadcrumb mb-0 p-0">
+						<li class="breadcrumb-item"><a href="javascript:;"><i class="bx bx-home-alt"></i></a>
+						</li>
+						<li class="breadcrumb-item active" aria-current="page">Gallery</li>
+					</ol>
+				</nav>
+			</div>
+		</div>
+		<!--end breadcrumb-->
+
+		<div class="container">
+
+			<div class="py-3">
+				<h2>Gallery</h2>
+			</div>
+			<div class="row">
+				<div class="col-12 col-lg-3">
+					<div class="card">
+						<div class="card-body">
+							<h5 class="my-3">My Gallery</h5>
+							<div class="fm-menu">
+								<div class="list-group list-group-flush">
+									<a href="javascript:;" class="list-group-item py-1"><i class='bx bx-image me-2'></i><span>Images</span></a>
+									<a href="javascript:;" class="list-group-item py-1"><i class='bx bx-video me-2'></i><span>Videos</span></a>
+									<a href="javascript:;" class="list-group-item py-1"><i class='bx bx-music me-2'></i><span>Audio</span></a>
+									<a href="javascript:;" class="list-group-item py-1"><i class='bx bx-beer me-2'></i><span>Zip Files</span></a>
+									<a href="javascript:;" class="list-group-item py-1"><i class='bx bx-trash-alt me-2'></i><span>Deleted Files</span></a>
+								</div>
+							</div>
+						</div>
+					</div>
+				</div>
+				<div class="col-12 col-lg-9">
+					<div class="card">
+						<div class="card-body">
+							<h5>Folders</h5>
+							<div class="row mt-3">
+								<div class="col-12 col-lg-4">
+									<div class="card shadow-none border radius-15">
+										<div class="card-body">
+											<div class="d-flex align-items-center">
+												<div class="font-30"><i class='bx bxs-folder'></i>
+												</div>
+											</div>
+											<h6 class="mb-0">Personal Image</h6>
+											<small>15 files</small>
+										</div>
+									</div>
+								</div>
+								<div class="col-12 col-lg-4">
+									<div class="card shadow-none border radius-15">
+										<div class="card-body">
+											<div class="d-flex align-items-center">
+												<div class="font-30"><i class='bx bxs-folder'></i>
+												</div>
+											</div>
+											<h6 class="mb-0">MJU Science Week 2022</h6>
+											<small>345 files</small>
+										</div>
+									</div>
+								</div>
+								<div class="col-12 col-lg-4">
+									<div class="card shadow-none border radius-15">
+										<div class="card-body">
+											<div class="d-flex align-items-center">
+												<div class="font-30"><i class='bx bxs-folder'></i>
+												</div>
+											</div>
+											<h6 class="mb-0">MJU</h6>
+											<small>143 files</small>
+										</div>
+									</div>
+								</div>
+							</div>
+							<!--end row-->
+
+							<div class="row mt-3">
+								<div class="col-12 col-lg-4">
+									<div class="card bg-dark text-white">
+										<img src="https://i.imgur.com/1N1o6yG.jpg" class="card-img" alt="...">
+									</div>
+								</div>
+								<div class="col-12 col-lg-4">
+									<div class="card bg-dark text-white">
+										<img src="https://i.imgur.com/nWShVMN.jpg" class="card-img" alt="...">
+									</div>
+								</div>
+								<div class="col-12 col-lg-4">
+									<div class="card bg-dark text-white">
+										<img src="https://i.imgur.com/9ksdqie.jpg" class="card-img" alt="...">
+									</div>
+								</div>
+								<div class="col-12 col-lg-4">
+									<div class="card bg-dark text-white">
+										<img src="https://i.imgur.com/kuBCsL6.jpg" class="card-img" alt="...">
+									</div>
+								</div>
+								<div class="col-12 col-lg-4">
+									<div class="card bg-dark text-white">
+										<img src="https://i.imgur.com/lVwBOlX.jpg" class="card-img" alt="...">
+									</div>
+								</div>
+								<div class="col-12 col-lg-4">
+									<div class="card bg-dark text-white">
+										<img src="https://i.imgur.com/twyBS7p.jpg" class="card-img" alt="...">
+									</div>
+								</div>
+							</div>
+
+						</div>
+					</div>
+				</div>
+			</div>
+		</div>
+
+	</div>
+</div>
+<!--end page wrapper -->
+<!--start overlay-->
+<div class="overlay toggle-icon"></div>
+<!--end overlay-->
+<!--Start Back To Top Button--> <a href="javaScript:;" class="back-to-top"><i class='bx bxs-up-arrow-alt'></i></a>
+<!--End Back To Top Button-->
+</div>
+<!--end wrapper-->
+	<!--start switcher-->
+	<div class="switcher-wrapper">
+		<div class="switcher-btn"> <i class='bx bx-cog bx-spin'></i>
+		</div>
+		<div class="switcher-body">
+			<div class="d-flex align-items-center">
+				<h5 class="mb-0 text-uppercase">Theme Customizer</h5>
+				<button type="button" class="btn-close ms-auto close-switcher" aria-label="Close"></button>
+			</div>
+			<hr/>
+			<p class="mb-0">Gaussian Texture</p>
+			  <hr>
+			  
+			  <ul class="switcher">
+				<li id="theme1"></li>
+				<li id="theme2"></li>
+				<li id="theme3"></li>
+				<li id="theme4"></li>
+				<li id="theme5"></li>
+				<li id="theme6"></li>
+			  </ul>
+               <hr>
+			  <p class="mb-0">Gradient Background</p>
+			  <hr>
+			  
+			  <ul class="switcher">
+				<li id="theme7"></li>
+				<li id="theme8"></li>
+				<li id="theme9"></li>
+				<li id="theme10"></li>
+				<li id="theme11"></li>
+				<li id="theme12"></li>
+			  </ul>
+		</div>
+	</div>
+	<!--end switcher-->
+	<!-- Bootstrap JS -->
+	<script src="assets/js/bootstrap.bundle.min.js"></script>
+	<!--plugins-->
+	<script src="assets/js/jquery.min.js"></script>
+	<script src="assets/plugins/simplebar/js/simplebar.min.js"></script>
+	<script src="assets/plugins/metismenu/js/metisMenu.min.js"></script>
+	<script src="assets/plugins/perfect-scrollbar/js/perfect-scrollbar.js"></script>
+	
+	<!--app JS-->
+	<script src="assets/js/app.js"></script>
+</body>
+
+</html>	<!--start switcher-->
+	<div class="switcher-wrapper">
+		<div class="switcher-btn"> <i class='bx bx-cog bx-spin'></i>
+		</div>
+		<div class="switcher-body">
+			<div class="d-flex align-items-center">
+				<h5 class="mb-0 text-uppercase">Theme Customizer</h5>
+				<button type="button" class="btn-close ms-auto close-switcher" aria-label="Close"></button>
+			</div>
+			<hr/>
+			<p class="mb-0">Gaussian Texture</p>
+			  <hr>
+			  
+			  <ul class="switcher">
+				<li id="theme1"></li>
+				<li id="theme2"></li>
+				<li id="theme3"></li>
+				<li id="theme4"></li>
+				<li id="theme5"></li>
+				<li id="theme6"></li>
+			  </ul>
+               <hr>
+			  <p class="mb-0">Gradient Background</p>
+			  <hr>
+			  
+			  <ul class="switcher">
+				<li id="theme7"></li>
+				<li id="theme8"></li>
+				<li id="theme9"></li>
+				<li id="theme10"></li>
+				<li id="theme11"></li>
+				<li id="theme12"></li>
+			  </ul>
+		</div>
+	</div>
+	<!--end switcher-->
+	<!-- Bootstrap JS -->
+	<script src="assets/js/bootstrap.bundle.min.js"></script>
+	<!--plugins-->
+	<script src="assets/js/jquery.min.js"></script>
+	<script src="assets/plugins/simplebar/js/simplebar.min.js"></script>
+	<script src="assets/plugins/metismenu/js/metisMenu.min.js"></script>
+	<script src="assets/plugins/perfect-scrollbar/js/perfect-scrollbar.js"></script>
+	
+	<!--app JS-->
+	<script src="assets/js/app.js"></script>
+</body>
+
+</html>

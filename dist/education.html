@@ -1,0 +1,691 @@
+<!doctype html>
+<html lang="en">
+
+<head>
+	<!-- Required meta tags -->
+	<meta charset="utf-8">
+	<meta name="viewport" content="width=device-width, initial-scale=1">
+	<!--favicon-->
+	<link rel="icon" href="assets/images/favicon-32x32.png" type="image/png" />
+	<!--plugins-->
+	<link href="assets/plugins/simplebar/css/simplebar.css" rel="stylesheet" />
+	<link href="assets/plugins/perfect-scrollbar/css/perfect-scrollbar.css" rel="stylesheet" />
+	<link href="assets/plugins/metismenu/css/metisMenu.min.css" rel="stylesheet" />
+	<!-- loader-->
+	<link href="assets/css/pace.min.css" rel="stylesheet" />
+	<script src="assets/js/pace.min.js"></script>
+	<!-- Bootstrap CSS -->
+	<link href="assets/css/bootstrap.min.css" rel="stylesheet">
+	<link href="assets/css/app.css" rel="stylesheet">
+	<link href="assets/css/icons.css" rel="stylesheet">
+
+	<link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/animate.css/4.1.1/animate.min.css" />
+	<title>Maythawat Mahawan</title>
+
+	<style>
+		@import url('https://fonts.googleapis.com/css2?family=IBM+Plex+Sans+Thai:wght@300;400;500;600&display=swap');
+
+		body {
+			font-family: 'Roboto', 'IBM Plex Sans Thai', sans-serif;
+		}
+	</style>
+
+</head>
+
+<body class="bg-theme bg-theme2">
+	<!--wrapper-->
+	<div class="wrapper">
+		<!--sidebar wrapper -->
+		<div class="sidebar-wrapper" data-simplebar="true">
+			<div class="sidebar-header">
+				<div>
+					<img src="assets/images/logo-icon.png" class="logo-icon" alt="logo icon">
+				</div>
+				<div>
+					<h4 class="logo-text">Codename_T</h4>
+				</div>
+				<div class="toggle-icon ms-auto"><i class='bx bx-arrow-to-left'></i>
+				</div>
+			</div>
+			<!--navigation-->
+			<ul class="metismenu" id="menu">
+				<li>
+					<a href="index.html">
+						<div class="parent-icon"><i class="bx bx-home"></i>
+						</div>
+						<div class="menu-title">Home</div>
+					</a>
+				</li>
+				<li>
+					<a href="about.html">
+						<div class="parent-icon"><i class="bx bx-user-circle"></i>
+						</div>
+						<div class="menu-title">About me</div>
+					</a>
+				</li>
+				<li>
+					<a href="education.html">
+						<div class="parent-icon"> <i class="bx bxs-graduation"></i>
+						</div>
+						<div class="menu-title">Education</div>
+					</a>
+				</li>
+				<li>
+					<a href="skills.html">
+						<div class="parent-icon"> <i class="bx bxs-bar-chart-alt-2" ></i>
+						</div>
+						<div class="menu-title">Skills</div>
+					</a>
+				</li>
+				<li>
+					<a href="projects.html">
+						<div class="parent-icon"> <i class="bx bx-briefcase-alt-2" ></i>
+						</div>
+						<div class="menu-title">Projects</div>
+					</a>
+				</li>
+				<li>
+					<a href="gallery.html">
+						<div class="parent-icon"><i class="bx bx-photo-album"></i>
+						</div>
+						<div class="menu-title">Gallery</div>
+					</a>
+				</li>
+				<li>
+					<a href="map.html">
+						<div class="parent-icon"><i class="bx bx-map"></i>
+						</div>
+						<div class="menu-title">Favorite Location</div>
+					</a>
+				</li>
+			</ul>
+			<!--end navigation-->
+		</div>
+		<!--end sidebar wrapper -->
+		<!--start header -->
+		<header>
+			<div class="topbar d-flex align-items-center">
+				<nav class="navbar navbar-expand">
+					<div class="mobile-toggle-menu"><i class="bx bx-menu"></i>
+					</div>
+					<div class="search-bar flex-grow-1">
+						<div class="position-relative search-bar-box">
+							<input type="text" class="form-control search-control" placeholder="Type to search...">
+							<span class="position-absolute top-50 search-show translate-middle-y"><i
+									class="bx bx-search"></i></span>
+							<span class="position-absolute top-50 search-close translate-middle-y"><i
+									class="bx bx-x"></i></span>
+						</div>
+					</div>
+					<div class="top-menu ms-auto">
+						<ul class="navbar-nav align-items-center">
+							<li class="nav-item mobile-search-icon">
+								<a class="nav-link" href="#"> <i class="bx bx-search"></i>
+								</a>
+							</li>
+							<li class="nav-item dropdown dropdown-large">
+								<a class="nav-link dropdown-toggle dropdown-toggle-nocaret position-relative" href="#"
+									role="button" data-bs-toggle="dropdown" aria-expanded="false"> 
+									<i class="bx bx-bell"></i>
+								</a>
+								<div class="dropdown-menu dropdown-menu-end">
+									<a href="javascript:;">
+										<div class="msg-header">
+											<p class="msg-header-title">Notifications</p>
+											<p class="msg-header-clear ms-auto">Marks all as read</p>
+										</div>
+									</a>
+									<div class="header-notifications-list">
+										
+									</div>
+									<a href="javascript:;">
+										<div class="text-center msg-footer">View All Notifications</div>
+									</a>
+								</div>
+							</li>
+							<li class="nav-item dropdown dropdown-large">
+								<a class="nav-link dropdown-toggle dropdown-toggle-nocaret position-relative" href="#"
+									role="button" data-bs-toggle="dropdown" aria-expanded="false">
+									<i class="bx bx-comment"></i>
+								</a>
+								<div class="dropdown-menu dropdown-menu-end">
+									<a href="javascript:;">
+										<div class="msg-header">
+											<p class="msg-header-title">Messages</p>
+											<p class="msg-header-clear ms-auto">Marks all as read</p>
+										</div>
+									</a>
+									<div class="header-message-list">
+									</div>
+									<a href="javascript:;">
+										<div class="text-center msg-footer">View All Messages</div>
+									</a>
+								</div>
+							</li>
+						</ul>
+					</div>
+					<div class="user-box dropdown">
+						<a class="d-flex align-items-center nav-link dropdown-toggle dropdown-toggle-nocaret" href="#"
+							role="button" data-bs-toggle="dropdown" aria-expanded="false">
+							<img src="https://via.placeholder.com/110x110" class="user-img" alt="user avatar">
+							<div class="user-info ps-3">
+								<p class="user-name mb-0">Anonymous</p>
+								<p class="designattion mb-0">Visitor</p>
+							</div>
+						</a>
+					</div>
+				</nav>
+			</div>
+		</header>
+		<!--end header --><!doctype html>
+<html lang="en">
+
+<head>
+	<!-- Required meta tags -->
+	<meta charset="utf-8">
+	<meta name="viewport" content="width=device-width, initial-scale=1">
+	<!--favicon-->
+	<link rel="icon" href="assets/images/favicon-32x32.png" type="image/png" />
+	<!--plugins-->
+	<link href="assets/plugins/simplebar/css/simplebar.css" rel="stylesheet" />
+	<link href="assets/plugins/perfect-scrollbar/css/perfect-scrollbar.css" rel="stylesheet" />
+	<link href="assets/plugins/metismenu/css/metisMenu.min.css" rel="stylesheet" />
+	<!-- loader-->
+	<link href="assets/css/pace.min.css" rel="stylesheet" />
+	<script src="assets/js/pace.min.js"></script>
+	<!-- Bootstrap CSS -->
+	<link href="assets/css/bootstrap.min.css" rel="stylesheet">
+	<link href="assets/css/app.css" rel="stylesheet">
+	<link href="assets/css/icons.css" rel="stylesheet">
+
+	<link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/animate.css/4.1.1/animate.min.css" />
+	<title>Maythawat Mahawan</title>
+
+	<style>
+		@import url('https://fonts.googleapis.com/css2?family=IBM+Plex+Sans+Thai:wght@300;400;500;600&display=swap');
+
+		body {
+			font-family: 'Roboto', 'IBM Plex Sans Thai', sans-serif;
+		}
+	</style>
+
+</head>
+
+<body class="bg-theme bg-theme2">
+	<!--wrapper-->
+	<div class="wrapper">
+		<!--sidebar wrapper -->
+		<div class="sidebar-wrapper" data-simplebar="true">
+			<div class="sidebar-header">
+				<div>
+					<img src="assets/images/logo-icon.png" class="logo-icon" alt="logo icon">
+				</div>
+				<div>
+					<h4 class="logo-text">Codename_T</h4>
+				</div>
+				<div class="toggle-icon ms-auto"><i class='bx bx-arrow-to-left'></i>
+				</div>
+			</div>
+			<!--navigation-->
+			<ul class="metismenu" id="menu">
+				<li>
+					<a href="index.html">
+						<div class="parent-icon"><i class="bx bx-home"></i>
+						</div>
+						<div class="menu-title">Home</div>
+					</a>
+				</li>
+				<li>
+					<a href="about.html">
+						<div class="parent-icon"><i class="bx bx-user-circle"></i>
+						</div>
+						<div class="menu-title">About me</div>
+					</a>
+				</li>
+				<li>
+					<a href="education.html">
+						<div class="parent-icon"> <i class="bx bxs-graduation"></i>
+						</div>
+						<div class="menu-title">Education</div>
+					</a>
+				</li>
+				<li>
+					<a href="skills.html">
+						<div class="parent-icon"> <i class="bx bxs-bar-chart-alt-2" ></i>
+						</div>
+						<div class="menu-title">Skills</div>
+					</a>
+				</li>
+				<li>
+					<a href="projects.html">
+						<div class="parent-icon"> <i class="bx bx-briefcase-alt-2" ></i>
+						</div>
+						<div class="menu-title">Projects</div>
+					</a>
+				</li>
+				<li>
+					<a href="gallery.html">
+						<div class="parent-icon"><i class="bx bx-photo-album"></i>
+						</div>
+						<div class="menu-title">Gallery</div>
+					</a>
+				</li>
+				<li>
+					<a href="map.html">
+						<div class="parent-icon"><i class="bx bx-map"></i>
+						</div>
+						<div class="menu-title">Favorite Location</div>
+					</a>
+				</li>
+			</ul>
+			<!--end navigation-->
+		</div>
+		<!--end sidebar wrapper -->
+		<!--start header -->
+		<header>
+			<div class="topbar d-flex align-items-center">
+				<nav class="navbar navbar-expand">
+					<div class="mobile-toggle-menu"><i class="bx bx-menu"></i>
+					</div>
+					<div class="search-bar flex-grow-1">
+						<div class="position-relative search-bar-box">
+							<input type="text" class="form-control search-control" placeholder="Type to search...">
+							<span class="position-absolute top-50 search-show translate-middle-y"><i
+									class="bx bx-search"></i></span>
+							<span class="position-absolute top-50 search-close translate-middle-y"><i
+									class="bx bx-x"></i></span>
+						</div>
+					</div>
+					<div class="top-menu ms-auto">
+						<ul class="navbar-nav align-items-center">
+							<li class="nav-item mobile-search-icon">
+								<a class="nav-link" href="#"> <i class="bx bx-search"></i>
+								</a>
+							</li>
+							<li class="nav-item dropdown dropdown-large">
+								<a class="nav-link dropdown-toggle dropdown-toggle-nocaret position-relative" href="#"
+									role="button" data-bs-toggle="dropdown" aria-expanded="false"> 
+									<i class="bx bx-bell"></i>
+								</a>
+								<div class="dropdown-menu dropdown-menu-end">
+									<a href="javascript:;">
+										<div class="msg-header">
+											<p class="msg-header-title">Notifications</p>
+											<p class="msg-header-clear ms-auto">Marks all as read</p>
+										</div>
+									</a>
+									<div class="header-notifications-list">
+										
+									</div>
+									<a href="javascript:;">
+										<div class="text-center msg-footer">View All Notifications</div>
+									</a>
+								</div>
+							</li>
+							<li class="nav-item dropdown dropdown-large">
+								<a class="nav-link dropdown-toggle dropdown-toggle-nocaret position-relative" href="#"
+									role="button" data-bs-toggle="dropdown" aria-expanded="false">
+									<i class="bx bx-comment"></i>
+								</a>
+								<div class="dropdown-menu dropdown-menu-end">
+									<a href="javascript:;">
+										<div class="msg-header">
+											<p class="msg-header-title">Messages</p>
+											<p class="msg-header-clear ms-auto">Marks all as read</p>
+										</div>
+									</a>
+									<div class="header-message-list">
+									</div>
+									<a href="javascript:;">
+										<div class="text-center msg-footer">View All Messages</div>
+									</a>
+								</div>
+							</li>
+						</ul>
+					</div>
+					<div class="user-box dropdown">
+						<a class="d-flex align-items-center nav-link dropdown-toggle dropdown-toggle-nocaret" href="#"
+							role="button" data-bs-toggle="dropdown" aria-expanded="false">
+							<img src="https://via.placeholder.com/110x110" class="user-img" alt="user avatar">
+							<div class="user-info ps-3">
+								<p class="user-name mb-0">Anonymous</p>
+								<p class="designattion mb-0">Visitor</p>
+							</div>
+						</a>
+					</div>
+				</nav>
+			</div>
+		</header>
+		<!--end header --><link href="assets/plugins/fullcalendar/css/main.min.css" rel="stylesheet" />
+
+<!--start page wrapper -->
+<div class="page-wrapper">
+	<div class="page-content">
+		<!--breadcrumb-->
+		<div class="page-breadcrumb d-none d-sm-flex align-items-center mb-3">
+			<div class="breadcrumb-title pe-3">Education</div>
+			<div class="ps-3">
+				<nav aria-label="breadcrumb">
+					<ol class="breadcrumb mb-0 p-0">
+						<li class="breadcrumb-item"><a href="javascript:;"><i class="bx bx-home-alt"></i></a>
+						</li>
+						<li class="breadcrumb-item active" aria-current="page">Education</li>
+					</ol>
+				</nav>
+			</div>
+		</div>
+		<!--end breadcrumb-->
+
+		<div class="container py-2">
+			<h2 class="font-weight-light text-center text-white py-3">My Education Timeline</h2>
+			<!-- timeline item 1 -->
+			<div class="row g-0">
+				<div class="col-sm">
+					<!--spacer-->
+				</div>
+				<!-- timeline item 1 center dot -->
+				<div class="col-sm-1 text-center flex-column d-none d-sm-flex">
+					<div class="row h-50">
+						<div class="col">&nbsp;</div>
+						<div class="col">&nbsp;</div>
+					</div>
+					<h5 class="m-2">
+						<span class="badge rounded-pill bg-light border">&nbsp;</span>
+					</h5>
+					<div class="row h-50">
+						<div class="col border-end">&nbsp;</div>
+						<div class="col">&nbsp;</div>
+					</div>
+				</div>
+				<!-- timeline item 1 event content -->
+				<div class="col-sm py-2">
+					<div class="card radius-15">
+						<div class="card-body">
+							<h4 class="card-title text-white">Primary school</h4>
+							<p class="card-text">Pratoolee Municipal School.</p>
+						</div>
+					</div>
+				</div>
+			</div>
+			<!--/row-->
+			<!-- timeline item 2 -->
+			<div class="row g-0">
+				<div class="col-sm py-2">
+					<div class="card border-primary shadow radius-15">
+						<div class="card-body">
+							<h4 class="card-title text-white">Junior High school</h4>
+							<p class="card-text">Suanboonyopatham Lamphun School.</p>
+						</div>
+					</div>
+				</div>
+				<div class="col-sm-1 text-center flex-column d-none d-sm-flex">
+					<div class="row h-50">
+						<div class="col border-end">&nbsp;</div>
+						<div class="col">&nbsp;</div>
+					</div>
+					<h5 class="m-2">
+						<span class="badge rounded-pill bg-white">&nbsp;</span>
+					</h5>
+					<div class="row h-50">
+						<div class="col border-end">&nbsp;</div>
+						<div class="col">&nbsp;</div>
+					</div>
+				</div>
+				<div class="col-sm">
+					<!--spacer-->
+				</div>
+			</div>
+			<!--/row-->
+			<!-- timeline item 3 -->
+			<div class="row g-0">
+				<div class="col-sm">
+					<!--spacer-->
+				</div>
+				<div class="col-sm-1 text-center flex-column d-none d-sm-flex">
+					<div class="row h-50">
+						<div class="col border-end">&nbsp;</div>
+						<div class="col">&nbsp;</div>
+					</div>
+					<h5 class="m-2">
+						<span class="badge rounded-pill bg-light border">&nbsp;</span>
+					</h5>
+					<div class="row h-50">
+						<div class="col border-end">&nbsp;</div>
+						<div class="col">&nbsp;</div>
+					</div>
+				</div>
+				<div class="col-sm py-2">
+					<div class="card radius-15">
+						<div class="card-body">
+							<h4 class="card-title">Vocational College</h4>
+							<p>Lamphun Technical Colleage.</p>
+						</div>
+					</div>
+				</div>
+			</div>
+			<!--/row-->
+			<!-- timeline item 4 -->
+			<div class="row g-0">
+				<div class="col-sm py-2">
+					<div class="card radius-15">
+						<div class="card-body">
+							<div class="float-end small">Now</div>
+							<h4 class="card-title">University</h4>
+							<p>Maejo University.</p>
+						</div>
+					</div>
+				</div>
+				<div class="col-sm-1 text-center flex-column d-none d-sm-flex">
+					<div class="row h-50">
+						<div class="col border-end">&nbsp;</div>
+						<div class="col">&nbsp;</div>
+					</div>
+					<h5 class="m-2">
+						<span class="badge rounded-pill bg-light border">&nbsp;</span>
+					</h5>
+					<div class="row h-50">
+						<div class="col">&nbsp;</div>
+						<div class="col">&nbsp;</div>
+					</div>
+				</div>
+				<div class="col-sm">
+					<!--spacer-->
+				</div>
+			</div>
+			<!--/row-->
+		</div>
+
+		<h2 class="text-center my-5">My Classroom Timetable</h2>
+		<!--end breadcrumb-->
+		<div class="card">
+			<div class="card-body">
+				<div class="table-responsive">
+					<div id='calendar'></div>
+				</div>
+			</div>
+		</div>
+	</div>
+</div>
+<!--end page wrapper -->
+<!--start overlay-->
+<div class="overlay toggle-icon"></div>
+<!--end overlay-->
+<!--Start Back To Top Button--> <a href="javaScript:;" class="back-to-top"><i class='bx bxs-up-arrow-alt'></i></a>
+<!--End Back To Top Button-->
+</div>
+<!--end wrapper-->
+
+	<!--start switcher-->
+	<div class="switcher-wrapper">
+		<div class="switcher-btn"> <i class='bx bx-cog bx-spin'></i>
+		</div>
+		<div class="switcher-body">
+			<div class="d-flex align-items-center">
+				<h5 class="mb-0 text-uppercase">Theme Customizer</h5>
+				<button type="button" class="btn-close ms-auto close-switcher" aria-label="Close"></button>
+			</div>
+			<hr/>
+			<p class="mb-0">Gaussian Texture</p>
+			  <hr>
+			  
+			  <ul class="switcher">
+				<li id="theme1"></li>
+				<li id="theme2"></li>
+				<li id="theme3"></li>
+				<li id="theme4"></li>
+				<li id="theme5"></li>
+				<li id="theme6"></li>
+			  </ul>
+               <hr>
+			  <p class="mb-0">Gradient Background</p>
+			  <hr>
+			  
+			  <ul class="switcher">
+				<li id="theme7"></li>
+				<li id="theme8"></li>
+				<li id="theme9"></li>
+				<li id="theme10"></li>
+				<li id="theme11"></li>
+				<li id="theme12"></li>
+			  </ul>
+		</div>
+	</div>
+	<!--end switcher-->
+	<!-- Bootstrap JS -->
+	<script src="assets/js/bootstrap.bundle.min.js"></script>
+	<!--plugins-->
+	<script src="assets/js/jquery.min.js"></script>
+	<script src="assets/plugins/simplebar/js/simplebar.min.js"></script>
+	<script src="assets/plugins/metismenu/js/metisMenu.min.js"></script>
+	<script src="assets/plugins/perfect-scrollbar/js/perfect-scrollbar.js"></script>
+	
+	<!--app JS-->
+	<script src="assets/js/app.js"></script>
+</body>
+
+</html>
+<script src="assets/plugins/fullcalendar/js/main.min.js"></script>
+
+<script>
+	document.addEventListener('DOMContentLoaded', function() {
+		var calendarEl = document.getElementById('calendar');
+		var calendar = new FullCalendar.Calendar(calendarEl, {
+			headerToolbar: {
+				left: 'prev,next today',
+				center: 'title',
+				right: 'dayGridMonth,timeGridWeek,timeGridDay'
+			},
+			initialView: 'dayGridMonth',
+			navLinks: true, // can click day/week names to navigate views
+			selectable: true,
+			nowIndicator: true,
+			dayMaxEvents: true, // allow "more" link when too many events
+			editable: false,
+			selectable: true,
+			businessHours: true,
+			dayMaxEvents: true, // allow "more" link when too many events
+			events: [{
+					daysOfWeek: [1],
+					title: 'คพ232'
+				},
+				{
+					daysOfWeek: [1],
+					title: 'คพ313'
+				},
+				{
+					daysOfWeek: [1],
+					title: 'สต301'
+				},
+				{
+					daysOfWeek: [2],
+					title: 'ศท242'
+				},
+				{
+					daysOfWeek: [2],
+					title: 'ศท013'
+				},
+				{
+					daysOfWeek: [2],
+					title: 'คพ343'
+				},
+				{
+					daysOfWeek: [2],
+					title: 'คพ313'
+				},
+				{
+					daysOfWeek: [3],
+					title: 'คพ252'
+				},
+				{
+					daysOfWeek: [4],
+					title: 'คพ232'
+				},
+				{
+					daysOfWeek: [4],
+					title: 'สต301'
+				},
+				{
+					daysOfWeek: [5],
+					title: 'ศท242'
+				},
+				{
+					daysOfWeek: [5],
+					title: 'ศท013'
+				},
+				{
+					daysOfWeek: [5],
+					title: 'คพ343'
+				},
+			]
+		});
+		calendar.render();
+	});
+</script>	<!--start switcher-->
+	<div class="switcher-wrapper">
+		<div class="switcher-btn"> <i class='bx bx-cog bx-spin'></i>
+		</div>
+		<div class="switcher-body">
+			<div class="d-flex align-items-center">
+				<h5 class="mb-0 text-uppercase">Theme Customizer</h5>
+				<button type="button" class="btn-close ms-auto close-switcher" aria-label="Close"></button>
+			</div>
+			<hr/>
+			<p class="mb-0">Gaussian Texture</p>
+			  <hr>
+			  
+			  <ul class="switcher">
+				<li id="theme1"></li>
+				<li id="theme2"></li>
+				<li id="theme3"></li>
+				<li id="theme4"></li>
+				<li id="theme5"></li>
+				<li id="theme6"></li>
+			  </ul>
+               <hr>
+			  <p class="mb-0">Gradient Background</p>
+			  <hr>
+			  
+			  <ul class="switcher">
+				<li id="theme7"></li>
+				<li id="theme8"></li>
+				<li id="theme9"></li>
+				<li id="theme10"></li>
+				<li id="theme11"></li>
+				<li id="theme12"></li>
+			  </ul>
+		</div>
+	</div>
+	<!--end switcher-->
+	<!-- Bootstrap JS -->
+	<script src="assets/js/bootstrap.bundle.min.js"></script>
+	<!--plugins-->
+	<script src="assets/js/jquery.min.js"></script>
+	<script src="assets/plugins/simplebar/js/simplebar.min.js"></script>
+	<script src="assets/plugins/metismenu/js/metisMenu.min.js"></script>
+	<script src="assets/plugins/perfect-scrollbar/js/perfect-scrollbar.js"></script>
+	
+	<!--app JS-->
+	<script src="assets/js/app.js"></script>
+</body>
+
+</html>
